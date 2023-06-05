@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        char ignore = 'f';
+        String text = "Hello \nworld";
+        System.out.println(text);
 
-
-        System.out.println(ignore);
 
 
 
