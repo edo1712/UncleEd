@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        String text = "Hello \nworld";
-        System.out.println(text);
+        float fl = 30.6f;
+        System.out.println(fl);
 
 
 
