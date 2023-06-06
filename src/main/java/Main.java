@@ -11,9 +11,8 @@ public class Main {
         System.out.println(g);
         boolean d = h.equalsIgnoreCase(g);
         System.out.println(d);
-
-
-
+        String w = new String("hi");
+        System.out.println(w);
 
 
     }
