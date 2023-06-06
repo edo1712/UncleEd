@@ -1,13 +1,28 @@
 public class Main {
     public static void main(String[] args) {
-        float width = 128.1f;
-        float length = 256.1f;
-        boolean bool = length > width;
+        String h = "hi ";
+        String g = "world";
+        int a = h.length();
+        int b = g.length();
+        int summ = a + b;
+        String q = h.toUpperCase();
+        System.out.println("сумма длин двух строк " + summ);
+        System.out.println(q.toLowerCase());
+        System.out.println(g);
+        boolean d = h.equalsIgnoreCase(g);
+        System.out.println(d);
+        String w = new String("hi");
+        System.out.println(w);
 
-        System.out.println(bool);
 
+        String firstName = "Ivanov";
+        String middleName = "ivan";
+        String lastName = "ivanovich";
+        String fullName = firstName + " " + middleName + " " +  lastName;
+        System.out.println(fullName);
 
-
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
 
     }
 }
