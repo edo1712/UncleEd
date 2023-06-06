@@ -15,7 +15,7 @@ public class Main {
         System.out.println(w);
 
 
-        String firstName = "ivanov";
+        String firstName = "Ivanov";
         String middleName = "ivan";
         String lastName = "ivanovich";
         String fullName = firstName + " " + middleName + " " +  lastName;
