@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         String h = "hi ";
@@ -24,6 +26,8 @@ public class Main {
         fullName = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
 
+
     }
 }
+
 
